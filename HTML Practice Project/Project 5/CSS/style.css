@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  line-height: 1.4em;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  box-shadow: 5px 5px 5px rgba(1, 2, 1, 0.05);
+  background: rgb(132, 253, 178);
+  position: sticky;
+  top: 0;
+  margin-bottom: 32px;
+  padding: 14px;
+  z-index: 50;
+}
+
+button {
+  border: none;
+  padding: 10px 15px;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: rgb(230, 101, 62);
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bar_container {
+  font-size: 32px;
+}
+
+.bar_container:hover{
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 120px;
+}
+
+.hero_content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tag {
+  background-color: rgb(63, 158, 71);
+  padding: 10px 10px;
+  color: white;
+  align-self: flex-start;
+  font-weight: 400;
+}
+
+.hero_content h1 {
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.hero_content p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2em;
+}
+
+.explore_btn {
+  font-size: 20px;
+  align-self: self-start;
+  background: rgb(230, 166, 70);
+  color: white;
+  font-weight: 400;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.feature {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+}
+
+.feature:hover {
+  box-shadow: 6px 5px 6px rgba(1, 1, 1, 0.3);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.feature img {
+  width: 72px;
+}
+
+.divider {
+  border: 1px solid #ccc;
+  margin: 20px 0px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 50px 0px;
+  align-items: center;
+}
+
+.menu .tag {
+  align-self: center;
+  padding: 16px 26px;
+  font-size: 26px;
+  border-radius: 4px;
+  font-weight: 400;
+}
+
+.menu h3 {
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+}
+
+.item1 {
+  grid-area: I1;
+}
+
+.item2 {
+  grid-area: I2;
+}
+
+.item3 {
+  grid-area: I3;
+}
+
+.item4 {
+  grid-area: I4;
+}
+
+.item5 {
+  grid-area: I5;
+}
+
+.item6 {
+  grid-area: I6;
+}
+
+.item7 {
+  grid-area: I7;
+}
+
+.grid_image {
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+  width: 100%;
+}
+
+.grid_image:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgb(65, 201, 117);
+  padding-top: 20px;
+}
+
+.footer_logo {
+  margin-top: -20px;
+}
+
+.link_lists {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.link_lists h3 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.link_lists ul {
+  list-style: none;
+}
+
+.link_lists ul li {
+  font-size: 20px;
+  color: black;
+  font-weight: 400;
+}
+
+.news_letter h3{
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: gray;
+}
+
+.news_letter input{
+  padding: 10px 5px;
+  font-size: 18px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.icon_container {
+  display: flex;
+  gap: 15px;
+  font-size: 30px;
+  align-self: center;
+}
+
+.icon_container icon :hover{
+  cursor: pointer;
+}
+
+.footer_container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p{
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 40px;
+  color: gray;
+}
+
+@media (max-width: 786px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero_image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero_image img {
+    width: 80%;
+  }
+
+  .hero_content {
+    gap: 10px;
+    padding: 0 20px;
+  }
+
+  .hero_content h1 {
+    font-size: 32px;
+  }
+
+  .features {
+    flex-direction: column;
+  }
+
+  .feature {
+    flex-direction: column;
+  }
+
+  .grid {
+    padding: 10px;
+  }
+
+  .footer_container{
+    flex-direction: column;
+  }
+}

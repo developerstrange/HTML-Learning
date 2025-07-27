@@ -1,0 +1,140 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Header with red theme */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #e23744; /* Red background */
+  color: white;
+}
+
+header img {
+  width: 130px;
+  filter: brightness(1000%); /* Boost visibility if white logo */
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+header ul li a {
+  text-decoration: none;         /* Remove underline */
+  color: white;                  /* Set link color to white */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+header ul li a:visited {
+  color: white;                  /* Keep visited links white */
+}
+
+header ul li a:hover {
+  color: #ffd1d6;                /* Optional: Light hover color */
+}
+
+
+header ul li:hover {
+  transform: scale(1.1);
+}
+
+/* Main Hero Section */
+main section:first-child {
+  background: url('../image/homepage.png') no-repeat center center/cover;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 5px #000;
+}
+
+main section:first-child p {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+main input {
+  padding: 14px 24px;
+  font-size: 1rem;
+  width: 90%;
+  max-width: 480px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  transition: all 0.4s ease;
+}
+
+/* Input animation */
+main input:focus {
+  box-shadow: 0 0 10px #e23744;
+  border: 2px solid #e23744;
+}
+
+/* Second section - Red theme blocks */
+main section:nth-child(2) {
+  padding: 60px 20px;
+  background-color: #fff4f5;
+  text-align: center;
+}
+
+main section:nth-child(2) h2 {
+  color: #e23744;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+
+.feature-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.feature {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  width: 260px;
+  box-shadow: 0 4px 12px rgba(226, 55, 68, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature h3 {
+  color: #e23744;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.feature p {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #f8f8f8;
+  color: #666;
+}

@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Manufacturing+Consent&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.4em;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 1rem;
+  max-width: 1200px;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  font-size: 2rem;
+  transition: 0.2s ease-in-out;
+}
+
+nav ul li:hover {
+  font-size: 2.4rem;
+  transition: 0.2s ease-in-out;
+}
+
+nav ul i {
+  font-size: 2.5rem;
+}
+
+nav ul i:hover {
+  font-size: 2.8rem;
+  transition: 0.2s ease-in-out;
+}
+
+header h1 {
+  font-size: 2.2rem;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Hero Section */
+
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .8rem;
+  margin-top: 2rem;
+}
+
+.hero_content h1 {
+  font-size: 8rem;
+  line-height: 1.2;
+}
+
+.hero_content h4 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.hero_image img {
+  border-radius: 5rem;
+  padding: 0rem -2rem;
+}
+
+/* Long Card Section */
+
+.h_card {
+  display: flex;
+  margin: 2rem 1rem;
+  box-shadow: 0px 4px 5px rgba(142, 142, 143, 0.8);
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  max-width: 1200px;
+  max-height: 260px;
+}
+
+.card_content {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  line-height: 1.6;
+  gap: 1rem;
+  padding-bottom: 0;
+}
+
+.card_status {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+  padding-bottom: 0;
+}
+
+.card_content p {
+  font-size: 1.6rem;
+
+}
+
+.card_image img {
+  padding: 0;
+  height: 27rem;
+  width: 50rem;
+}
+
+
+.read {
+  all: unset;
+  font-weight: 600;
+  font-size: 1.6rem;
+  border-bottom: 2px solid transparent;
+}
+
+.read:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #ccc;
+  transition: 0.3s ease-in-out;
+}
+
+.v_card {
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 300px;
+  margin: 2rem 1rem;
+  box-shadow: 0px 4px 5px rgba(142, 142, 143, 0.8);
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.v_card_status {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+}
+
+.v_card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card_container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.card_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.l_card {
+  display: flex;
+  margin: 2rem 1rem;
+  box-shadow: 0px 4px 5px rgba(142, 142, 143, 0.8);
+  align-items: center;
+  border: 1px solid #e2e2e2;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  max-width: 1200px;
+  max-height: 600px;
+  flex-direction: row;
+}
+
+.l_card_content {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  line-height: 1.6;
+  gap: 1rem;
+  padding-bottom: 0;
+}
+
+.l_card_status {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+  padding-bottom: 0;
+}
+
+.l_card_content p {
+  font-size: 1.6rem;
+
+}
+
+.read {
+  all: unset;
+  font-weight: 600;
+  font-size: 1.6rem;
+  border-bottom: 2px solid transparent;
+}
+
+.read:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #ccc;
+  transition: 0.3s ease-in-out;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+footer ul {
+  display: flex;
+  gap: 2rem;
+}
+
+footer ul li {
+  font-size: 1.8rem;
+}
+
+footer p{
+  font-size: 1.5rem;
+}
+
+/* Post Page */
+
+.banner_image img {
+  width: 100%;
+}
+
+.post h1 {
+  font-size: 3rem;
+}
+
+.post hr {
+  margin-bottom: 3.4rem;
+  margin-top: .5rem;
+}
+
+.about_author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 3rem;
+  font-size: 1.6rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+article p {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

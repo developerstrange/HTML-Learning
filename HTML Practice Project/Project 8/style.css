@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Libertinus Math", system-ui;
+  font-weight: 300;
+  line-height: 1.4em;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+}
+
+header {
+  border: 1px solid #ccc;
+  height: 100vh;
+}
+
+nav h1 {
+  font-size: 35px;
+  font-weight: 600;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  line-height: 1.2;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  border-bottom: 1px solid #ccc;
+  padding: 12px;
+  color: black;
+  font-size: 24px;
+  transition: 0.3s ease-in-out;
+}
+
+nav ul li:hover {
+  background: #ccc;
+  transition: 0.3s ease-in-out;
+}
+
+main {
+  padding: 30px;
+  max-width: 100%;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section article {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+section h2 {
+  padding-bottom: 15px;
+  font-size: 30px;
+  font-weight: 300;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+section article ul {
+  margin-left: 30px;
+}
+
+section article ul li {
+  margin-bottom: 10px;
+}
+
+code {
+  white-space: pre-line;
+  line-height: 1.5;
+  background: #d8d2d2f7;
+  padding: 15px;
+  margin: 0px;
+  border-radius: 5px;
+  display: block;
+}
+
+@media(max-width: 480px){
+  body {
+    flex-direction: column;
+  }
+  header {
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+}

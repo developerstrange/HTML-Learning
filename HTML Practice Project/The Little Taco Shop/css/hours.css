@@ -1,0 +1,122 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+  background-color: #fff7ec;
+  color: #3e2a1d;
+  padding: 20px;
+  line-height: 1.8;
+}
+
+/* Header Styling */
+header {
+  background: linear-gradient(135deg, #ff6f00, #ffa726);
+  color: white;
+  padding: 30px 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #fff8e1;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Image Section */
+figure {
+  margin-top: 20px;
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-style: italic;
+  color: #5d4037;
+}
+
+/* Main Styling */
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff3e0;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+main p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+/* Hours List */
+dl {
+  background-color: #ffe0b2;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 6px solid #fb8c00;
+  font-size: 1.05rem;
+}
+
+dt {
+  font-weight: bold;
+  color: #e65100;
+  margin-top: 15px;
+}
+
+dd {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: #4e342e;
+}
+
+/* Back to Top Link */
+a[href="#"] {
+  color: #ef6c00;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a[href="#"]:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 40px;
+  color: #5d4037;
+}

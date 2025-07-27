@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+.center-nav {
+  display: flex;
+}
+
+.search {
+  display: flex;
+}
+
+.search input {
+  min-width: 500px;
+  padding: 4px 8px;
+  border: 0.8px solid #ccc;
+}
+
+.search button {
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.mic {
+  background-color: #e0dede;
+  border-radius: 50%;
+  padding: 4px 8px;
+  display: grid;
+  place-items: center;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.mic img {
+  width: 24px;
+}
+
+.side-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.side-nav img {
+  cursor: pointer;
+}
+
+.tags {
+  display: flex;
+  padding: 4px 8px;
+  gap: 15px;
+  border-top: 1px solid #ccc;
+}
+
+.tag {
+  padding: 2px 4px;
+  border-radius: 20px;
+  border: 1px solid rgb(80, 78, 78);
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.dark {
+  background: #000;
+  color: white;
+  padding: 4px 6px;
+}
+
+.light {
+  background: rgb(238, 238, 238);
+  color: rgb(155, 152, 152);
+  padding: 4px 6px;
+}
+
+aside {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+.side-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-icons img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.side-icons p {
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.bars {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.main-container {
+  width: 100%;
+}
+
+main {
+  min-height: 100vh;
+  background: rgb(240, 238, 238);
+  margin-top: 5px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.card {
+  padding: 5px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar-content {
+  padding-top: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.card h3 {
+  font-size: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-left: 8px;
+}
+
+.channel-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.content-status {
+  display: flex;
+  font-size: 16px;
+  gap: 10px;
+}
