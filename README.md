@@ -1,19 +1,19 @@
-# HTML Learning & Practice Projects
+# HTML & CSS Learning Projects
 
 This repository contains my learning journey while exploring **HTML** and basic **CSS**. It includes a collection of folders where I practiced writing HTML code and followed along with a few YouTube tutorials.
 
 ## 📁 Repository Structure
 
 - `html-basics/` — Contains basic HTML practice files (headings, lists, tables, forms, etc.)
-- `html-css-projects/` — Projects made by following YouTube tutorials. Most of the HTML and CSS were copied for learning purposes.
-- `mini-templates/` — Sample templates created or tested using copied HTML and CSS.
+- `html-css-projects/` — Contains HTML and CSS projects, mostly from tutorials, for learning layouts and styling.
+- `mini-templates/` — Sample templates created or tested with both HTML and CSS.
 - Other folders may include small experiments and tests during my learning.
 
 ## 🔍 About This Repo
 
-- ✅ Most of the HTML code here was written during hands-on practice sessions.
+-Hands-on HTML practice with headings, lists, forms, tables, and more.  
 - 📺 Some complete projects were created by **following YouTube tutorials**, mainly for understanding layout and structure.
-- 🎨 CSS styles were mostly **copied** as I’m still learning how styling works.
+- 🎨 CSS experimentation included in projects and templates to learn styling and layout.
 
 ## 📌 Note
 
@@ -22,10 +22,7 @@ I plan to improve these projects and write my own HTML/CSS from scratch as I gai
 
 ## 🚀 Goals
 
-- Build original HTML templates
-- Learn CSS from scratch and apply custom designs
-- Eventually move on to JavaScript and modern web frameworks
-
----
-
-📚 Thanks to the online community and creators for their tutorials and guidance!
+-- Build original HTML & CSS templates
+- Apply custom CSS designs and layouts
+- Move on to JavaScript and modern web frameworks
+online community and creators for their tutorials and guidance!
